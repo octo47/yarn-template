@@ -1,0 +1,25 @@
+[
+    {
+        "id": "c31",
+        "priority": 1,
+        "commands": [
+            "mkdir myout",
+            "echo 'hello kitty' > myout/out1",
+            "mkdir myout/subdir",
+            "echo 'hello kitty' > myout/subdir/out1",
+            "ls -R ."
+        ],
+        "outputs": ["myout"],
+        "hosts": ["host1", "host2"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c61",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls /"],
+        "hosts": ["host1", "host2", "host3"],
+        "memoryMB": 123,
+        "vcores": 2
+    }
+]

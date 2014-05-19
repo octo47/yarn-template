@@ -1,0 +1,98 @@
+[
+    {
+        "id": "c31",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c61",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1", "host2", "host3"],
+        "memoryMB": 123,
+        "vcores": 2
+    },
+    {
+        "id": "c63",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1", "host2", "host3"],
+        "memoryMB": 256,
+        "vcores": 1
+    },
+    {
+        "id": "c4",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host3", "host2"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c33",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1"],
+        "memoryMB": 256,
+        "vcores": 2
+    },
+    {
+        "id": "c2",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host2", "host1"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c72",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["*"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c5",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host3"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c1",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1", "host2"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c32",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1"],
+        "memoryMB": 256,
+        "vcores": 1
+    },
+    {
+        "id": "c71",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["*"],
+        "memoryMB": 123,
+        "vcores": 1
+    },
+    {
+        "id": "c62",
+        "priority": 1,
+        "commands": ["/bin/sh -c ls"],
+        "hosts": ["host1", "host2", "host3"],
+        "memoryMB": 123,
+        "vcores": 2
+    }
+]
